@@ -1,0 +1,9 @@
+{
+  "timestamp": "2025-08-29T23:16:22.535882",
+  "current_tvl": {
+    "lending": 3.3835519225270615e+24,
+    "crvusd": 0,
+    "total": 3.3835519225270615e+24
+  },
+  "methodology": "Similar to sl_monitor.py - tracking TVL in soft liquidation"
+}

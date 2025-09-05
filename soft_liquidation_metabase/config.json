@@ -1,0 +1,591 @@
+{
+  "networks": {
+    "ethereum": {
+      "RPC_URL": "https://lb.drpc.org/ogrpc?network=eth&dkey=ApF7okCBBEmvp3j2BAywFnu2Q3Jf-MwR7pT4ngOF84-p",
+      "default_coin_id": "ethereum",
+      "controller_contracts": [
+        {
+          "address": "0x4e59541306910ad6dc1dac0ac9dfb29bd9f15c67",
+          "creation_block": 17557475,
+          "collateral_token": "WBTC",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0xa920de414ea4ab66b97da1bfe9e6eca7d4219635",
+          "creation_block": 17562530,
+          "collateral_token": "ETH",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0xec0820efafc41d8943ee8de495fc9ba8495b15cf",
+          "creation_block": 18001224,
+          "collateral_token": "sfrxETH",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x1c91da0223c763d2e0173243eadaa0a2ea47e704",
+          "creation_block": 18001227,
+          "collateral_token": "tBTC",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x100daa78fc509db39ef7d04de0c1abd299f4c6ce",
+          "creation_block": 17432225,
+          "collateral_token": "wstETH",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x100daa78fc509db39ef7d04de0c1abd299f4c6ce",
+          "creation_block": 17432225,
+          "collateral_token": "wstETH",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x8472a9a7632b173c8cf3a86d3afec50c35548e76",
+          "creation_block": 17258064,
+          "collateral_token": "sfrxETH",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0xf8C786b1064889fFd3c8A08B48D5e0c159F4cBe3",
+          "creation_block": 22019066,
+          "collateral_token": "cbbtc",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x652aEa6B22310C89DCc506710CaD24d2Dba56B11",
+          "creation_block": 22019060,
+          "collateral_token": "weeth",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x8aca5A776a878Ea1F8967e70a23b8563008f58Ef",
+          "creation_block": 22019069,
+          "collateral_token": "lbtc",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0xeda215b7666936ded834f76f3fbc6f323295110a",
+          "creation_block": 19422691,
+          "collateral_token": "CRV",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0xac9add93364aea685be238db6c40bf53753f2cf1",
+          "creation_block": 20340672,
+          "collateral_token": "ETHFI",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0x4f87158350c296955966059c50263f711ce0817c",
+          "creation_block": 19801071,
+          "collateral_token": "pufETH",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0xcf3df6c1b4a6b38496661b31170de9508b867c8e",
+          "creation_block": 20325474,
+          "collateral_token": "sDOLA",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0x8c2537f1a5b1b167a960a14b89f7860dd5f7cd68",
+          "creation_block": 20157147,
+          "collateral_token": "sFRAX",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0xb536fea3a01c95dd09932440ec802a75410139d6",
+          "creation_block": 19999153,
+          "collateral_token": "sUSDe",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0x413fd2511bad510947a91f5c6c79ebd8138c29fc",
+          "creation_block": 19422684,
+          "collateral_token": "tBTC",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0x74f88baa966407b50c10b393bbd789639effe78b",
+          "creation_block": 20148558,
+          "collateral_token": "USDe",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0x09dbdeb3b301a4753589ac6df8a178c7716ce16b",
+          "creation_block": 19707458,
+          "collateral_token": "UwU",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0xcad85b7fe52b1939dceebee9bcf0b2a5aa0ce617",
+          "creation_block": 19800634,
+          "collateral_token": "WBTC",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0x23f5a668a9590130940ef55964ead9787976f2cc",
+          "creation_block": 20034869,
+          "collateral_token": "WETH",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0xaade9230aa9161880e13a38c83400d3d1995267b",
+          "creation_block": 19422678,
+          "collateral_token": "WETH",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0x5756a035f276a8095a922931f224f4ed06149608",
+          "creation_block": 20035301,
+          "collateral_token": "wstETH",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0x1e0165dbd2019441ab7927c018701f3138114d71",
+          "creation_block": 19422666,
+          "collateral_token": "wstETH",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0xb4544e705665e0856961a51f7e86ccf633404b86",
+          "creation_block": 21245612,
+          "collateral_token": "XAUM",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0x143985860efaeacb92db23e4b0c4d66be51b08d2",
+          "creation_block": 20925172,
+          "collateral_token": "ynETH",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0xC510d73Ad34BeDECa8978B6914461aA7b50CF3Fc",
+          "creation_block": 0,
+          "collateral_token": "crvUSD",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0xa5D9137d2A1Ee912469d911A8E74B6c77503bac8",
+          "creation_block": 0,
+          "collateral_token": "crvUSD",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0xe438658874b0acf4D81c24172E137F0eE00621b8",
+          "creation_block": 0,
+          "collateral_token": "crvUSD",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x98Fc283d6636f6DCFf5a817A00Ac69A3ADd96907",
+          "creation_block": 0,
+          "collateral_token": "sUSDe",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x3c1350aa6FaFF17c87Bde2015BBb45100D37dAD3",
+          "creation_block": 0,
+          "collateral_token": "ezETH",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x1F9D988cDeBfA1FD5563C122a987186e516173c2",
+          "creation_block": 0,
+          "collateral_token": "USD0USD0++",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0xDC8b1Caf2e10dE76fb67E82C2485E7d4fA098C53",
+          "creation_block": 0,
+          "collateral_token": "USD0USD0++",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x276B8C8873079eEACCF4Dd241De14be92D733b45",
+          "creation_block": 0,
+          "collateral_token": "swBTC",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0xdC5D5EE1223D4C8b7eAc8e876793f2171e7e8dEb",
+          "creation_block": 0,
+          "collateral_token": "ynETH",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x757C61d89bD0406BfcBB68178BBfaE79ECa46c0f",
+          "creation_block": 0,
+          "collateral_token": "crvUSD",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0xC28C2FD809FC1795f90de1C9dA2131434A77721d",
+          "creation_block": 0,
+          "collateral_token": "LBTC",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0xf8C27436B277734AAA726A8fD5e6D7daDe0296c5",
+          "creation_block": 0,
+          "collateral_token": "RCH",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x3DE37c38739dFb83b7A902842bF5393040f7BF50",
+          "creation_block": 0,
+          "collateral_token": "sfrxUSD",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x6f91f33Ac7122F025b73206239CbC81606F022D4",
+          "creation_block": 0,
+          "collateral_token": "ynETHx",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0xaD444663c6C92B497225c6cE65feE2E7F78BFb86",
+          "creation_block": 0,
+          "collateral_token": "sDOLA",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0xc572297c5e995692B972c8eEa1D12b56b6399e1e",
+          "creation_block": 0,
+          "collateral_token": "tBTC",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x2dA313f6DCEE04BA46466E100c4656618E5d3dDd",
+          "creation_block": 0,
+          "collateral_token": "sUSDS",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0xD961B0Da2B0Fb04439c96B552777720B5FC551A0",
+          "creation_block": 0,
+          "collateral_token": "sUSDf",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x89707721927d7aaeeee513797A8d6cBbD0e08f41",
+          "creation_block": 0,
+          "collateral_token": "wstUSR",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x24174143cCF438f0A1F6dCF93B468C127123A96E",
+          "creation_block": 0,
+          "collateral_token": "ycvxCRV",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0xB62B9272679d7A495d7e9698d8663F217224408a",
+          "creation_block": 0,
+          "collateral_token": "yvUSDC-1",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0xE786af7faef857C8D850d648723Eec0A27cd8581",
+          "creation_block": 0,
+          "collateral_token": "yvUSDS-1",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x5bfEE37053d711F49A0aCf5afEd6496fA68dCE32",
+          "creation_block": 0,
+          "collateral_token": "yvWETH-2",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x8035b16053560b3C351b665b10f6C7dBDb6A1E05",
+          "creation_block": 0,
+          "collateral_token": "fxSAVE",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0xFA4f65B3Dc477738ce8618e9145E1f0Ad9E29034",
+          "creation_block": 0,
+          "collateral_token": "sdeUSD",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x4F79Fe450a2BAF833E8f50340BD230f5A3eCaFe9",
+          "creation_block": 0,
+          "collateral_token": "sreUSD",
+          "platform": "crvUSD"
+        }
+      ]
+    },
+    "arbitrum": {
+      "RPC_URL": "https://lb.drpc.org/ogrpc?network=arbitrum&dkey=ApF7okCBBEmvp3j2BAywFnu2Q3Jf-MwR7pT4ngOF84-p",
+      "default_coin_id": "ethereum",
+      "controller_contracts": [
+        {
+          "address": "0x76709bc0da299ab0234eec51385e900922ae98f5",
+          "creation_block": 196070155,
+          "collateral_token": "ARB",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0xecf99de21c31ec75b4fb97e980f9d084b1d8da8f",
+          "creation_block": 219516457,
+          "collateral_token": "ARB",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0x83b85f3b08b5ee58de9ef9604e7eec087fccf130",
+          "creation_block": 230535746,
+          "collateral_token": "asdCRV",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0x88f88e937db48bbfe8e3091718576430704e47ab",
+          "creation_block": 196070126,
+          "collateral_token": "CRV",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0x3e293db65c81742e32b74e21a0787d2936beedf7",
+          "creation_block": 244552387,
+          "collateral_token": "IBTC",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0x376e6d52f38e0fce8e94293ce911e2fded2d4a4f",
+          "creation_block": 256880630,
+          "collateral_token": "tBTC",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0x013be86e1cdb0f384daf24bd974fe75edffe6b68",
+          "creation_block": 193652708,
+          "collateral_token": "WBTC",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0xb9adddcf4e01c2f64f8f2cd9a050dc35585ea053",
+          "creation_block": 219516420,
+          "collateral_token": "WBTC",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0xb5c6082d3307088c98da8d79991501e113e6365d",
+          "creation_block": 219516379,
+          "collateral_token": "WETH",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0xb5b6f0e69c283aa32425fa18220e64283b51f0a4",
+          "creation_block": 193652607,
+          "collateral_token": "WETH",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0x28c20590de7539C316191F413686dcF794d8898E",
+          "creation_block": 0,
+          "collateral_token": "WBTC",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x5014AB37Fca7201baDEc3C0d0f28Dc7899cdC7D5",
+          "creation_block": 0,
+          "collateral_token": "gmUSDC",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0xAe659CE8f2f23649E09e92D164244AA127A7a2c7",
+          "creation_block": 0,
+          "collateral_token": "FXN",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x7Adcc491f0B7f9BC12837B8F5Edf0e580d176F1f",
+          "creation_block": 0,
+          "collateral_token": "FXN",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x4064Ed6Ae070F126F56c47c8a8CdD6B924668b5D",
+          "creation_block": 0,
+          "collateral_token": "gmUSDC",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0xF4e35f69D0BeE1AFC26EE73f12Fa7fA220F16F40",
+          "creation_block": 0,
+          "collateral_token": "CRV",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x991Bf50A34972227e681127D9127a1Dc54f67a3b",
+          "creation_block": 0,
+          "collateral_token": "IBTC",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x4153532Eb32D57a1a08cD024c66E79635aFC8e3a",
+          "creation_block": 0,
+          "collateral_token": "tBTC",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x5A2b666E6f36CB0a17CF03c9feb421855Ca9751D",
+          "creation_block": 0,
+          "collateral_token": "stXAI",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x398e6dd92Df9F792D0107668871e6F49ebdfE028",
+          "creation_block": 0,
+          "collateral_token": "stXAI",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x6c1cD25cC6320f992EDE07F6a6e93810e8855bc2",
+          "creation_block": 0,
+          "collateral_token": "stXAI",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x7a5A1c91dAF5A41942F90b3f8a9c4d3526294c16",
+          "creation_block": 0,
+          "collateral_token": "EYWA",
+          "platform": "crvUSD"
+        }
+      ]
+    },
+    "fraxtal": {
+      "RPC_URL": "https://rpc.frax.com",
+      "default_coin_id": "ethereum",
+      "controller_contracts": [
+        {
+          "address": "0x99d5b47d431f1963940f72ffa6f25bc0b9849cbf",
+          "creation_block": 9466097,
+          "collateral_token": "CRV",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0xf0922934f16dbe5df9f90f729b2023d5e1fc2f15",
+          "creation_block": 9466090,
+          "collateral_token": "FXS",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0xc68f91ffa2b27147f9ab153267018f5fe4b6850f",
+          "creation_block": 9466075,
+          "collateral_token": "sfrxETH",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0xb4ebf87a474569d8eb7f7182b4bebd8ae79ae675",
+          "creation_block": 9466083,
+          "collateral_token": "sfrxUSD",
+          "platform": "LlamaLend"
+        },
+        {
+          "address": "0xBF55Bb9463bBbB6aD724061910a450939E248eA6",
+          "creation_block": 10161636,
+          "collateral_token": "SQUID",
+          "platform": "LlamaLend"
+        }
+      ]
+    },
+    "sonic": {
+      "RPC_URL": "https://rpc.soniclabs.com",
+      "default_coin_id": "sonic",
+      "controller_contracts": [
+        {
+          "address": "0x5eD490a9B71fa797231d2c5D9bE25bf91a953C19",
+          "creation_block": 0,
+          "collateral_token": "wS",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0xB8C93fb97884Ea07c2Eb0eA741f78D10e8C5aF9F",
+          "creation_block": 0,
+          "collateral_token": "stS",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0xDC06056e208aB92bF173FF6DD662F1018ea0E483",
+          "creation_block": 0,
+          "collateral_token": "wOS",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x7547E577B3DDC23c02E10792457f8e51a225692E",
+          "creation_block": 0,
+          "collateral_token": "scETH",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0xbb7A0C558Fd34234Dc1608f4CD0a334E0075D73a",
+          "creation_block": 0,
+          "collateral_token": "scUSD",
+          "platform": "crvUSD"
+        }
+      ]
+    },
+    "optimism": {
+      "RPC_URL": "https://lb.drpc.org/ogrpc?network=optimism&dkey=ApF7okCBBEmvp3j2BAywFnu2Q3Jf-MwR7pT4ngOF84-p",
+      "default_coin_id": "ethereum",
+      "controller_contracts": [
+        {
+          "address": "0x9dba46e6a06FBf24CA11f8912B44338fe1b28Ea9",
+          "creation_block": 0,
+          "collateral_token": "WETH",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x6CE5B539367A29d48038A9F3108E6e0f226b83ed",
+          "creation_block": 0,
+          "collateral_token": "wstETH",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x09cEd8b3392bED73B0358e39AaEC0A6e9b0e76DF",
+          "creation_block": 0,
+          "collateral_token": "WBTC",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0xC5Cd9f6A1Fb88bed782f475F72fF686ED35b7e8e",
+          "creation_block": 0,
+          "collateral_token": "OP",
+          "platform": "crvUSD"
+        },
+        {
+          "address": "0x88aa928B906b745009B53A31034701Fc377b7C89",
+          "creation_block": 0,
+          "collateral_token": "CRV",
+          "platform": "crvUSD"
+        }
+      ]
+    }
+  },
+  "user": "0xFE14F5Be3Db5c3195a74aeD86805Fe136193203A",
+  "controller_address": "0xb5c6082d3307088c98da8d79991501e113e6365d",
+  "default_coin_id": "bitcoin",
+  "adaptive_params": {
+    "initial_step": 100,
+    "min_step": 10,
+    "max_step": 1000,
+    "threshold": 0.0001,
+    "alpha": 0.3,
+    "epsilon": 1e-08,
+    "min_ratio": 0.5,
+    "max_ratio": 9.0
+  },
+  "adaptive_params_ethereum": {
+    "initial_step": 5,
+    "min_step": 1,
+    "max_step": 10,
+    "threshold": 0.0001,
+    "alpha": 0.3,
+    "epsilon": 1e-08,
+    "min_ratio": 0.5,
+    "max_ratio": 9.0
+  }
+}

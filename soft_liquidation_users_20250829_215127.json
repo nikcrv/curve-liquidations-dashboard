@@ -1,0 +1,1054 @@
+{
+  "timestamp": "2025-08-29T21:51:27.467689",
+  "unique_users": 1009,
+  "unique_chains": [
+    "arbitrum",
+    "ethereum",
+    "fraxtal",
+    "optimism"
+  ],
+  "unique_markets": [
+    "FXN-long",
+    "CRV-long",
+    "ARB-long",
+    "wBTC-long",
+    "WETH-long",
+    "UWU-Long",
+    "WETH-long2",
+    "pufETH-long",
+    "susde-long",
+    "ETHFI-long",
+    "wBTC-long2",
+    "wstETH-long",
+    "sFRAX-long",
+    "sfrxETH-long",
+    "SQUID-long",
+    "OP-long",
+    "asdCRV-long",
+    "EYWA-long",
+    "ARB-long2",
+    "FXS-long",
+    "WBTC-long",
+    "sUSDe-long-v2",
+    "wstETH-long2",
+    "dlcBTC-long",
+    "tBTC-short",
+    "ETH-long",
+    "ynETH-long",
+    "tBTC-long2",
+    "sfrxUSD",
+    "CRV-short",
+    "tBTC-long",
+    "methena",
+    "USD0/USD0+-long"
+  ],
+  "total_records": 1260,
+  "chain_distribution": {
+    "arbitrum": 542,
+    "ethereum": 411,
+    "fraxtal": 94,
+    "optimism": 25
+  },
+  "sample_users": [
+    {
+      "user_address": "0x7d493f9ad706BBfF54ceF71Fd2f2bf8509981Cc0",
+      "market_name": "FXN-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-11T20:00:13Z",
+      "last_soft_liq": "2025-08-29T16:00:15Z",
+      "snapshot_count": 40332,
+      "avg_debt": "40589879529007493077889",
+      "avg_collateral": "42033532837199984507"
+    },
+    {
+      "user_address": "0xD4f9FE0039Da59e6DDb21bbb6E84e0C9e83D73eD",
+      "market_name": "FXN-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-11T20:00:13Z",
+      "last_soft_liq": "2024-06-03T20:05:53Z",
+      "snapshot_count": 34974,
+      "avg_debt": "31519617662017651067",
+      "avg_collateral": "12996559581793752"
+    },
+    {
+      "user_address": "0x9eaF3DD7865F4f870a00a86f0c85001D1B94396F",
+      "market_name": "FXN-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-11T20:00:13Z",
+      "last_soft_liq": "2024-06-03T20:04:12Z",
+      "snapshot_count": 34972,
+      "avg_debt": "54284275553018487763",
+      "avg_collateral": "59949902902556704"
+    },
+    {
+      "user_address": "0x529e0B005f18273667eB00F3c79Cc0ee12f83875",
+      "market_name": "FXN-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-11T20:00:13Z",
+      "last_soft_liq": "2024-06-03T19:39:15Z",
+      "snapshot_count": 34970,
+      "avg_debt": "209629938178928806845",
+      "avg_collateral": "58833754802343463"
+    },
+    {
+      "user_address": "0x2618F4c64805526a3092d41f25597CcfE4Dd8216",
+      "market_name": "CRV-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-02T04:00:09Z",
+      "last_soft_liq": "2024-05-27T18:53:58Z",
+      "snapshot_count": 34923,
+      "avg_debt": "4058632249521585316907",
+      "avg_collateral": "1057068403575386085813"
+    },
+    {
+      "user_address": "0xcA7933ecBFA34C8862b6ede7362B28B6275A33Df",
+      "market_name": "ARB-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-24T12:00:11Z",
+      "last_soft_liq": "2024-05-16T11:36:56Z",
+      "snapshot_count": 34676,
+      "avg_debt": "100258941962376645351",
+      "avg_collateral": "110559610433950203456"
+    },
+    {
+      "user_address": "0xA2622838C8AB38e683c47035F7d38732EEb18C36",
+      "market_name": "wBTC-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-27T01:04:48Z",
+      "last_soft_liq": "2024-07-16T00:06:44Z",
+      "snapshot_count": 31248,
+      "avg_debt": "36366143285122696875953",
+      "avg_collateral": 79085634.60669483
+    },
+    {
+      "user_address": "0xCf43b38D5080ac6dfbbEd50B853e314152d2E84B",
+      "market_name": "FXN-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-12T00:00:07Z",
+      "last_soft_liq": "2024-06-03T20:05:12Z",
+      "snapshot_count": 30381,
+      "avg_debt": 3030588866491481.5,
+      "avg_collateral": 4186878329171.791
+    },
+    {
+      "user_address": "0x4784EF6cfCd31F7ce28A803f4F28b73C5bE5C8D8",
+      "market_name": "WETH-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-27T01:30:38Z",
+      "last_soft_liq": "2024-05-13T12:15:05Z",
+      "snapshot_count": 24069,
+      "avg_debt": "4387109353841957922035",
+      "avg_collateral": "1204825354220319791"
+    },
+    {
+      "user_address": "0x6a9Be9cFa46Ac9Df9b18474D440116a1FEB80a94",
+      "market_name": "ARB-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-14T12:00:07Z",
+      "last_soft_liq": "2024-05-07T08:40:19Z",
+      "snapshot_count": 23042,
+      "avg_debt": "742775969664465394",
+      "avg_collateral": "706424769011181535"
+    },
+    {
+      "user_address": "0xD6855a6A6C0668C02E6529FD6D74275c67e83815",
+      "market_name": "ARB-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-27T01:26:43Z",
+      "last_soft_liq": "2024-05-17T16:00:09Z",
+      "snapshot_count": 20450,
+      "avg_debt": "90248157134331797971",
+      "avg_collateral": "104486600763225005156"
+    },
+    {
+      "user_address": "0x387ACB7f56A6f29137a21d7Eb755A3F638cab45B",
+      "market_name": "CRV-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2024-04-03T20:00:11Z",
+      "last_soft_liq": "2025-03-25T08:00:11Z",
+      "snapshot_count": 17845,
+      "avg_debt": "155393383737983235580557",
+      "avg_collateral": "419760494999245395593176"
+    },
+    {
+      "user_address": "0xA76501a648fd3187dBC5785e9BaA2d6bF2107949",
+      "market_name": "WETH-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-30T11:57:13Z",
+      "last_soft_liq": "2024-05-13T12:15:11Z",
+      "snapshot_count": 17696,
+      "avg_debt": "117533541070694456",
+      "avg_collateral": 33688179155246.42
+    },
+    {
+      "user_address": "0x7a16fF8270133F063aAb6C9977183D9e72835428",
+      "market_name": "CRV-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2024-03-14T16:00:11Z",
+      "last_soft_liq": "2024-11-08T12:42:35Z",
+      "snapshot_count": 17412,
+      "avg_debt": "348523307106563349433614",
+      "avg_collateral": "240387962418852066683035"
+    },
+    {
+      "user_address": "0x7177fbde7F4DD38854792365Ba056553d42fE5f0",
+      "market_name": "WETH-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-19T16:00:09Z",
+      "last_soft_liq": "2024-05-08T10:33:33Z",
+      "snapshot_count": 15280,
+      "avg_debt": "1331969061680514011",
+      "avg_collateral": 399361684798571.56
+    },
+    {
+      "user_address": "0x2F0126966657563C4a376cE43ba43891d7537A32",
+      "market_name": "wBTC-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-05-02T06:29:40Z",
+      "last_soft_liq": "2024-06-17T12:00:06Z",
+      "snapshot_count": 13517,
+      "avg_debt": "51622511287827251899167",
+      "avg_collateral": 41977683.89620478
+    },
+    {
+      "user_address": "0xCAaB37cF0ba2fab1a1Dc1cE3fce7EDdCE5BFCa6e",
+      "market_name": "WETH-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-05-06T13:07:25Z",
+      "last_soft_liq": "2024-07-12T01:34:04Z",
+      "snapshot_count": 13208,
+      "avg_debt": "3839146108161636521520",
+      "avg_collateral": "198847464074867473"
+    },
+    {
+      "user_address": "0xF18eb7De4A8F3e9d8d0e516BeD6a169BC330B7a4",
+      "market_name": "WETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2024-04-19T04:00:11Z",
+      "last_soft_liq": "2025-08-10T05:03:35Z",
+      "snapshot_count": 12528,
+      "avg_debt": "30477855201473197600",
+      "avg_collateral": 1111681530210479.6
+    },
+    {
+      "user_address": "0xBA55600901ba20B993433ac3db425D9c11e27908",
+      "market_name": "WETH-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-23T08:00:02Z",
+      "last_soft_liq": "2024-05-03T13:25:07Z",
+      "snapshot_count": 12088,
+      "avg_debt": "862358806450566787497",
+      "avg_collateral": "209902906071669244"
+    },
+    {
+      "user_address": "0xf9a6eAB21B54196dDF7E9BAf79Be2188f32681db",
+      "market_name": "WETH-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-01T12:00:00Z",
+      "last_soft_liq": "2024-05-01T09:45:08Z",
+      "snapshot_count": 11563,
+      "avg_debt": "1248702055532423836560",
+      "avg_collateral": 1137647019995745.8
+    },
+    {
+      "user_address": "0x1Ed137074C60F0b713FE6bC840Ea9fE7fb73C6fD",
+      "market_name": "wBTC-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-12T20:00:02Z",
+      "last_soft_liq": "2024-05-01T10:28:58Z",
+      "snapshot_count": 11544,
+      "avg_debt": "77802659581609145656115",
+      "avg_collateral": 45006227.798250176
+    },
+    {
+      "user_address": "0xf9a6eAB21B54196dDF7E9BAf79Be2188f32681db",
+      "market_name": "ARB-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-03T16:00:02Z",
+      "last_soft_liq": "2024-05-01T09:46:49Z",
+      "snapshot_count": 11521,
+      "avg_debt": "4818944922889820689464",
+      "avg_collateral": "9241350263556965532"
+    },
+    {
+      "user_address": "0x63Fe1742192f07D67739cc0f091645a2A50804E1",
+      "market_name": "WETH-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-05-01T20:26:02Z",
+      "last_soft_liq": "2024-05-12T12:42:14Z",
+      "snapshot_count": 11264,
+      "avg_debt": "37093679247616945597946",
+      "avg_collateral": "4836586488614166730"
+    },
+    {
+      "user_address": "0x39532630a97A85c9D66F3Bd234B1A4F489E16139",
+      "market_name": "WETH-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-02T20:00:00Z",
+      "last_soft_liq": "2024-05-01T17:42:46Z",
+      "snapshot_count": 11254,
+      "avg_debt": "7808739082378552497602",
+      "avg_collateral": "1851551534699454751"
+    },
+    {
+      "user_address": "0xdf4E06a49A4Df04606935723113150276360B443",
+      "market_name": "WETH-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-12T20:00:02Z",
+      "last_soft_liq": "2024-04-30T21:31:06Z",
+      "snapshot_count": 10432,
+      "avg_debt": "2215889111094016474119",
+      "avg_collateral": "914466352732114532"
+    },
+    {
+      "user_address": "0x5c0721A11b3b3486755df2C5448032974531A544",
+      "market_name": "wBTC-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-30T14:15:57Z",
+      "last_soft_liq": "2024-07-05T06:17:11Z",
+      "snapshot_count": 10137,
+      "avg_debt": 3199586014742899.5,
+      "avg_collateral": 4.298313110387689
+    },
+    {
+      "user_address": "0xCb392a0B3420c051a68e33EA2c67504a9D571890",
+      "market_name": "wBTC-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-19T04:00:04Z",
+      "last_soft_liq": "2024-05-04T11:18:32Z",
+      "snapshot_count": 9894,
+      "avg_debt": "110052338346326643220784",
+      "avg_collateral": 199433413.75419447
+    },
+    {
+      "user_address": "0xbDec7287C08C0c153F9843C4796D59e3BF7178E4",
+      "market_name": "ARB-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-27T01:26:43Z",
+      "last_soft_liq": "2024-05-05T15:02:34Z",
+      "snapshot_count": 9705,
+      "avg_debt": 7005533208914590.0,
+      "avg_collateral": 8123139113497427.0
+    },
+    {
+      "user_address": "0xbDfF9bA155d195aA8C448852b5D45dd13EB928d0",
+      "market_name": "ARB-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-25T12:00:00Z",
+      "last_soft_liq": "2024-05-01T14:28:02Z",
+      "snapshot_count": 8687,
+      "avg_debt": "4111728328865917983",
+      "avg_collateral": "4410952424961278478"
+    },
+    {
+      "user_address": "0x46e8c1D761e890166b51b647DB8E8f917d9D8864",
+      "market_name": "WETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2024-04-27T17:53:59Z",
+      "last_soft_liq": "2024-05-26T12:00:11Z",
+      "snapshot_count": 8546,
+      "avg_debt": "358554783859651774452121",
+      "avg_collateral": "46658676176688166318"
+    },
+    {
+      "user_address": "0x8907bD00491d0b830C38276AcC6D72E2419135A2",
+      "market_name": "ARB-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-05-02T02:07:19Z",
+      "last_soft_liq": "2024-05-20T20:00:13Z",
+      "snapshot_count": 7683,
+      "avg_debt": "33761631136724326001949",
+      "avg_collateral": "39284076114273733389784"
+    },
+    {
+      "user_address": "0x91673A37017f3f1b48e784Ca2069CF6C8753961d",
+      "market_name": "WETH-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-05-08T20:55:31Z",
+      "last_soft_liq": "2024-06-25T04:47:11Z",
+      "snapshot_count": 7178,
+      "avg_debt": "48917421599058979002",
+      "avg_collateral": "11747883573445192"
+    },
+    {
+      "user_address": "0x62c8aCc91b488F5749D8e43C7711eDf76841b206",
+      "market_name": "WETH-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-17T16:00:01Z",
+      "last_soft_liq": "2024-05-15T09:26:08Z",
+      "snapshot_count": 6945,
+      "avg_debt": "5975763634399179537425",
+      "avg_collateral": "1824015697223845634"
+    },
+    {
+      "user_address": "0xD0ccd7483Cd24DB5B26cAA44C944843060bA55DD",
+      "market_name": "WETH-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-05-01T07:33:49Z",
+      "last_soft_liq": "2024-08-04T17:44:59Z",
+      "snapshot_count": 6499,
+      "avg_debt": "5057991656990987957",
+      "avg_collateral": 1860378713251847.2
+    },
+    {
+      "user_address": "0x5Ed9d82097E21CfCDaBE47B461F37727edf61B9D",
+      "market_name": "WETH-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-05-01T07:33:49Z",
+      "last_soft_liq": "2024-08-03T12:24:14Z",
+      "snapshot_count": 6485,
+      "avg_debt": "1165825272025377824",
+      "avg_collateral": 424043777739623.6
+    },
+    {
+      "user_address": "0x7eE071e15c13F365836Fd7E8F6DCd34E3F4Eda88",
+      "market_name": "CRV-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2024-05-06T15:16:23Z",
+      "last_soft_liq": "2024-08-05T10:49:35Z",
+      "snapshot_count": 5819,
+      "avg_debt": "72498631404012166174231",
+      "avg_collateral": "143196754987695914339779"
+    },
+    {
+      "user_address": "0x7f624AAab99b17E6C88585CA0F3f96dE453CC66c",
+      "market_name": "CRV-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2024-05-07T22:20:35Z",
+      "last_soft_liq": "2024-11-22T12:34:47Z",
+      "snapshot_count": 5269,
+      "avg_debt": "752124546542054357145",
+      "avg_collateral": "2194940184001329333469"
+    },
+    {
+      "user_address": "0x512fde81e3A85993E29C26A5876B4261761C4E4A",
+      "market_name": "wBTC-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-19T04:00:04Z",
+      "last_soft_liq": "2024-05-02T14:05:12Z",
+      "snapshot_count": 4257,
+      "avg_debt": "2725079139323817697",
+      "avg_collateral": 3051.9546629081515
+    },
+    {
+      "user_address": "0x961993ff86a8fF9e10664a1f91dDB8C9EF17EA4F",
+      "market_name": "UWU-Long",
+      "chain": "ethereum",
+      "first_soft_liq": "2024-07-02T11:58:23Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 4104,
+      "avg_debt": "33612109337102032677730",
+      "avg_collateral": "2437143576163313971894"
+    },
+    {
+      "user_address": "0x0059efca9d24bf579EE0314e7BC2569674aA42E2",
+      "market_name": "CRV-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2024-05-10T17:41:47Z",
+      "last_soft_liq": "2024-08-06T04:11:23Z",
+      "snapshot_count": 2806,
+      "avg_debt": "154425102211022599765039",
+      "avg_collateral": "570982406932952747636236"
+    },
+    {
+      "user_address": "0x04d03771c3CcB9c6F3eD7240D4258B5c418EC134",
+      "market_name": "WETH-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-05-01T08:26:36Z",
+      "last_soft_liq": "2025-07-15T20:00:09Z",
+      "snapshot_count": 2614,
+      "avg_debt": "10057387149483072780983",
+      "avg_collateral": "1867583643565103221"
+    },
+    {
+      "user_address": "0x23cFD4Fec0B37B86Fc7dc48bC644d5c6d94ac0dF",
+      "market_name": "WETH-long2",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-06-24T07:59:46Z",
+      "last_soft_liq": "2025-03-01T05:58:57Z",
+      "snapshot_count": 2594,
+      "avg_debt": "47137890563286093124770",
+      "avg_collateral": "3583464276916865936"
+    },
+    {
+      "user_address": "0x54240C950fF793A4eB5895a56F859216cB1c3f0D",
+      "market_name": "ARB-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-04-13T21:19:55Z",
+      "last_soft_liq": "2024-04-30T12:48:03Z",
+      "snapshot_count": 2458,
+      "avg_debt": "36386628936628099687",
+      "avg_collateral": "49356131745754560502572"
+    },
+    {
+      "user_address": "0x2d0a342FbE76cE4A1783756981BC3902AA4f7De5",
+      "market_name": "wBTC-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2025-02-03T07:58:44Z",
+      "last_soft_liq": "2025-08-18T12:00:01Z",
+      "snapshot_count": 2361,
+      "avg_debt": 8412863926793769.0,
+      "avg_collateral": 1.8157560355781448
+    },
+    {
+      "user_address": "0xC0e72285B9f0D18B9e8ED50AC8bAC4525B2C2a0D",
+      "market_name": "WETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2024-05-01T08:10:47Z",
+      "last_soft_liq": "2024-08-05T00:27:35Z",
+      "snapshot_count": 2327,
+      "avg_debt": "5016892963573222321674",
+      "avg_collateral": "1960365499525727619"
+    },
+    {
+      "user_address": "0x30604426505CA2b98C2A6C179626CfC3cDc07F35",
+      "market_name": "WETH-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-06-11T19:59:14Z",
+      "last_soft_liq": "2025-01-18T05:53:29Z",
+      "snapshot_count": 2294,
+      "avg_debt": "1076333476198137255618",
+      "avg_collateral": "85193820158553244"
+    },
+    {
+      "user_address": "0x06BeCF78d49f4664D04267FDeBFfCf28B9fE325E",
+      "market_name": "WETH-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-06-11T07:59:34Z",
+      "last_soft_liq": "2024-12-05T10:56:10Z",
+      "snapshot_count": 2100,
+      "avg_debt": "1339244043534243564492",
+      "avg_collateral": "150262847952205806"
+    },
+    {
+      "user_address": "0x127656ba749DA2Cc8A41a1a87C73c2c5ea801728",
+      "market_name": "CRV-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2024-12-20T11:58:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 2079,
+      "avg_debt": "799544809012202827",
+      "avg_collateral": 3784890210281798.5
+    },
+    {
+      "user_address": "0x764B3aAf71891c351B83fE3D4C8Fbcb7609AA56b",
+      "market_name": "CRV-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2024-12-20T11:58:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 2079,
+      "avg_debt": 4439057241461850.5,
+      "avg_collateral": 247354490595523.7
+    },
+    {
+      "user_address": "0x9858218c248864698e9F3454c5F828761094D190",
+      "market_name": "CRV-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2024-12-20T11:58:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 2079,
+      "avg_debt": "155941810989988074",
+      "avg_collateral": 0.0
+    },
+    {
+      "user_address": "0x10e50901A9F65629715db45B24e5b047a6F11240",
+      "market_name": "WETH-long2",
+      "chain": "ethereum",
+      "first_soft_liq": "2024-06-23T23:58:11Z",
+      "last_soft_liq": "2025-03-24T13:34:35Z",
+      "snapshot_count": 1941,
+      "avg_debt": "415319802778288950484",
+      "avg_collateral": 6641523071633798.0
+    },
+    {
+      "user_address": "0x8E772bCaeE442E196f223c05899C79a31c1C60Ad",
+      "market_name": "CRV-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2024-04-30T11:58:23Z",
+      "last_soft_liq": "2024-06-07T19:14:47Z",
+      "snapshot_count": 1845,
+      "avg_debt": "723126225535624587443",
+      "avg_collateral": "2170571111561210541800"
+    },
+    {
+      "user_address": "0xd380EE64833C4948dE02B245C508612D0F876868",
+      "market_name": "wBTC-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-06-11T19:59:14Z",
+      "last_soft_liq": "2024-11-13T23:45:32Z",
+      "snapshot_count": 1822,
+      "avg_debt": "1272145045960106665717",
+      "avg_collateral": 1977264.5537870473
+    },
+    {
+      "user_address": "0x81395b229B0e381f83Be3d93FeA22508A73d00a4",
+      "market_name": "ARB-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-06-18T03:59:50Z",
+      "last_soft_liq": "2024-11-17T02:03:37Z",
+      "snapshot_count": 1803,
+      "avg_debt": "380991882075980133128",
+      "avg_collateral": "126542390477373646178"
+    },
+    {
+      "user_address": "0x879fbC694A0E10eaDb9DAe8FC591c02D27598880",
+      "market_name": "WETH-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-05-01T07:33:49Z",
+      "last_soft_liq": "2024-05-02T10:35:20Z",
+      "snapshot_count": 1702,
+      "avg_debt": "48356567282635474117654",
+      "avg_collateral": "17587710966704679338"
+    },
+    {
+      "user_address": "0x34E775864A8c4De9bA039E46e9A149a32aF59a89",
+      "market_name": "WETH-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-06-28T16:00:21Z",
+      "last_soft_liq": "2024-11-11T23:20:02Z",
+      "snapshot_count": 1550,
+      "avg_debt": "4627659988696147818268",
+      "avg_collateral": "179071362052933766"
+    },
+    {
+      "user_address": "0x0fEcBC9291D0f35E44000589F0cF1BB7aCD94713",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": 221145827383.8788,
+      "avg_collateral": 1631299.9423201554
+    },
+    {
+      "user_address": "0x11Cd9058492bC28e7bfF33F5791651e33af52a66",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": 263673329.88204795,
+      "avg_collateral": 7948.0168502916395
+    },
+    {
+      "user_address": "0x33058D23D47b907Cc61f8BCB55AB61a9396CdE7D",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": 9717646629.696695,
+      "avg_collateral": 72047.35450421258
+    },
+    {
+      "user_address": "0x332c5320C74666086681548446fdF7253B8e5891",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": 658049736.1283214,
+      "avg_collateral": 11528.963058976022
+    },
+    {
+      "user_address": "0x334b521b096FDc3Ebf7b8a4B562917e79C4C2EE0",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": 3189184767.4990277,
+      "avg_collateral": 23900.42838626053
+    },
+    {
+      "user_address": "0x55AD39Ff21cd1D359E01b1f90F421bde0546f1EE",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": 66796342277298.586,
+      "avg_collateral": 10428160514.597538
+    },
+    {
+      "user_address": "0x5e71553F2bdF4eA29a3B1F8F7e95e06ACbb4C31D",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": 1086289118684143.9,
+      "avg_collateral": 169589984706.4096
+    },
+    {
+      "user_address": "0x61d345369925129c5C97374051C410A62a19B3c8",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": "1070546847718643174",
+      "avg_collateral": 167132316298253.28
+    },
+    {
+      "user_address": "0x6a603eF89A5fD5212783a5Ca395609D15Cb7198a",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": "87988544114819606",
+      "avg_collateral": 648903045332.6927
+    },
+    {
+      "user_address": "0x72827c4311E0335b6149Fbef8788cD82bb251fe5",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": 8646656709141560.0,
+      "avg_collateral": 231784000695.21582
+    },
+    {
+      "user_address": "0x77Da07A77e44A55Bd4E6AFF6278158868d2807A9",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": 10633086472163.986,
+      "avg_collateral": 78417887.03953338
+    },
+    {
+      "user_address": "0x794f457cdE64A8F96bfa4cd72A359A111bD7A828",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": 297657440.5521711,
+      "avg_collateral": 8805.367465975372
+    },
+    {
+      "user_address": "0x8189f3743Dd71BBd1dF597FbCe5eFDd33070D438",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": 219701381.77446532,
+      "avg_collateral": 9725.075826312379
+    },
+    {
+      "user_address": "0x84f7dc8230f667e1f7a462724A11F4976D5cBDA6",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": 66981634410.889175,
+      "avg_collateral": 494361.1808165911
+    },
+    {
+      "user_address": "0x8531C783ddB3B6000c70e44807507d7b7459d568",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": 90360177.27802981,
+      "avg_collateral": 17878.558003888527
+    },
+    {
+      "user_address": "0x8dDc04304aA3C6F4bFf02C0ef3079d08F72F1C37",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": 21264331162827.285,
+      "avg_collateral": 156821810.04342192
+    },
+    {
+      "user_address": "0xA9454Bb47aF4780d77Ed8Fe659a228ca0c8E9f9e",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": 106330660837.5917,
+      "avg_collateral": 784554.439403759
+    },
+    {
+      "user_address": "0xc58F57015cc9eB77551a0C32D01b954c411b6b9e",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": 606023603.6014258,
+      "avg_collateral": 10683.528839922228
+    },
+    {
+      "user_address": "0xCAdB551A5eC0510e3D1Ed0c3F1c62c3bDa749C66",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": 93525988.55865198,
+      "avg_collateral": 18276.468567725213
+    },
+    {
+      "user_address": "0xcbE74ca9D82aa3610ACC8dc8EFdf11cdFC530518",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": 3721205914689.5264,
+      "avg_collateral": 27443747.24368114
+    },
+    {
+      "user_address": "0xDa4F617d56c537a02E0ebE72Df39F703a461F3Da",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": 429854567.5858717,
+      "avg_collateral": 7821.604666234608
+    },
+    {
+      "user_address": "0xDD946E62f7a535eEc40982d824869B9E699E463e",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": 551906933.1257291,
+      "avg_collateral": 9804.418016850292
+    },
+    {
+      "user_address": "0xe15d36e1cBe1777cc00cE52dfb7e8c1cbaB45008",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": 7441448873.096565,
+      "avg_collateral": 55260.52106286455
+    },
+    {
+      "user_address": "0xE74E67AAF055a99b231F57f4D8d09866B6f70454",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": 276394785.64225537,
+      "avg_collateral": 8268.861309138043
+    },
+    {
+      "user_address": "0xfa8E1822326E8F18179d11c1807a7316f85A5c32",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": 5634241969.611147,
+      "avg_collateral": 41932.674011665586
+    },
+    {
+      "user_address": "0xFcaDD91c28Dd12Bb258f090C511b8813f4c89992",
+      "market_name": "pufETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1543,
+      "avg_debt": 88623430.8904731,
+      "avg_collateral": 17658.668826960467
+    },
+    {
+      "user_address": "0x8F0A3E01d916486735a8F6A2Ffc0685a3Fa57BF5",
+      "market_name": "susde-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-05T07:58:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1517,
+      "avg_debt": "721580110183026889641",
+      "avg_collateral": "428347100254636332999"
+    },
+    {
+      "user_address": "0x05791640dBE10CdAf3827A93e4b43a905329aab3",
+      "market_name": "susde-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-05T07:58:35Z",
+      "last_soft_liq": "2025-08-29T07:47:47Z",
+      "snapshot_count": 1515,
+      "avg_debt": "31864538383457679242963",
+      "avg_collateral": "19628172379267813408088"
+    },
+    {
+      "user_address": "0xfa2DC8a07B5e823cD5C50d8b601Ef5E79E1F5A11",
+      "market_name": "ETHFI-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-10T03:58:23Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1459,
+      "avg_debt": "1072141821091382946",
+      "avg_collateral": "241139672975029404"
+    },
+    {
+      "user_address": "0x84bC1fC6204b959470BF8A00d871ff8988a3914A",
+      "market_name": "wBTC-long2",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-06-14T19:59:39Z",
+      "last_soft_liq": "2024-10-15T14:52:12Z",
+      "snapshot_count": 1450,
+      "avg_debt": "22911017213114400362503",
+      "avg_collateral": 13963896.209655173
+    },
+    {
+      "user_address": "0x037771A4c189d3B9C0b9DB7b7CB2C4EA6629bB61",
+      "market_name": "susde-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-11T07:57:23Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1445,
+      "avg_debt": "908532634532412924588",
+      "avg_collateral": "583601789671962744853"
+    },
+    {
+      "user_address": "0x4D28c4DFC0E10c35D3B18221584E7693Ce93e824",
+      "market_name": "ARB-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-07-05T03:59:09Z",
+      "last_soft_liq": "2025-02-10T00:48:53Z",
+      "snapshot_count": 1445,
+      "avg_debt": "235472414983155499840",
+      "avg_collateral": "685809180098038704078"
+    },
+    {
+      "user_address": "0xe40E43A9b900B0FCF5d17e481761a8bFc6e0377D",
+      "market_name": "susde-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2024-10-10T11:57:23Z",
+      "last_soft_liq": "2025-02-05T23:28:23Z",
+      "snapshot_count": 1426,
+      "avg_debt": "518415138651168284491",
+      "avg_collateral": "258645582156613670522"
+    },
+    {
+      "user_address": "0x8907bD00491d0b830C38276AcC6D72E2419135A2",
+      "market_name": "wBTC-long",
+      "chain": "arbitrum",
+      "first_soft_liq": "2024-06-14T19:59:39Z",
+      "last_soft_liq": "2024-10-28T20:00:18Z",
+      "snapshot_count": 1318,
+      "avg_debt": "144754847604119570435670",
+      "avg_collateral": 208248159.92867982
+    },
+    {
+      "user_address": "0x64923162709A0bF5e2c02B034B7b11fFA17Aa762",
+      "market_name": "WETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-02T23:56:47Z",
+      "last_soft_liq": "2025-07-19T20:00:11Z",
+      "snapshot_count": 1300,
+      "avg_debt": "22637339020074237051932",
+      "avg_collateral": "921549860616529797"
+    },
+    {
+      "user_address": "0xb1C7643704d5A08bFf0C89eebB2347D4f3006E16",
+      "market_name": "WETH-long2",
+      "chain": "arbitrum",
+      "first_soft_liq": "2025-01-13T11:58:44Z",
+      "last_soft_liq": "2025-07-16T20:00:03Z",
+      "snapshot_count": 1293,
+      "avg_debt": 1689453136234959.2,
+      "avg_collateral": 27249500406.705338
+    },
+    {
+      "user_address": "0x0Fe093fA04C305C00482bf9F9fe927056b790988",
+      "market_name": "WETH-long2",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-01-21T03:59:11Z",
+      "last_soft_liq": "2025-07-08T16:00:11Z",
+      "snapshot_count": 1253,
+      "avg_debt": "14995627103330066238685",
+      "avg_collateral": "1973925703190711339"
+    },
+    {
+      "user_address": "0xe8486C082654C9A5a2ec2879B489a5B54AA61897",
+      "market_name": "WETH-long2",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-02T23:56:47Z",
+      "last_soft_liq": "2025-07-12T04:00:11Z",
+      "snapshot_count": 1250,
+      "avg_debt": "4184418118488923886477",
+      "avg_collateral": "216121184090721203"
+    },
+    {
+      "user_address": "0x5A3cf413Ddc23ee8D135DdeCd22cDC35eFF15F49",
+      "market_name": "WETH-long2",
+      "chain": "arbitrum",
+      "first_soft_liq": "2025-02-02T19:58:35Z",
+      "last_soft_liq": "2025-07-15T21:42:48Z",
+      "snapshot_count": 1248,
+      "avg_debt": "18412512601785242147651",
+      "avg_collateral": "97497185464845763"
+    },
+    {
+      "user_address": "0x23F8C7dB7A1B656652e9726ab264c5B181418B9f",
+      "market_name": "wstETH-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-21T23:56:35Z",
+      "last_soft_liq": "2025-08-29T16:00:11Z",
+      "snapshot_count": 1237,
+      "avg_debt": "1173274542412469527",
+      "avg_collateral": 1556421754380540.0
+    },
+    {
+      "user_address": "0xbcCD47F25685Bb2333C9DA2791ee5987ba5d6C61",
+      "market_name": "susde-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2024-09-13T11:59:23Z",
+      "last_soft_liq": "2024-12-23T00:31:59Z",
+      "snapshot_count": 1211,
+      "avg_debt": "1524408076217770807253",
+      "avg_collateral": "845317018190449259553"
+    },
+    {
+      "user_address": "0x0eDDC8dFE7b8efB871d0871d42A9D60C1d1746D6",
+      "market_name": "WETH-long2",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-07-10T16:00:11Z",
+      "snapshot_count": 1170,
+      "avg_debt": "56603279094636027183113",
+      "avg_collateral": "1971581247424369550"
+    },
+    {
+      "user_address": "0x98227fF23bC01B7e62e2Aa9d94F920Cd844620AD",
+      "market_name": "WETH-long2",
+      "chain": "ethereum",
+      "first_soft_liq": "2025-02-03T03:57:35Z",
+      "last_soft_liq": "2025-07-10T16:00:11Z",
+      "snapshot_count": 1170,
+      "avg_debt": "32091138720457392844860",
+      "avg_collateral": "1116454825438439338"
+    },
+    {
+      "user_address": "0x8cbcda0cd7Df045CF7fBF4b477DCBDEA3D88746F",
+      "market_name": "susde-long",
+      "chain": "ethereum",
+      "first_soft_liq": "2024-09-13T11:59:23Z",
+      "last_soft_liq": "2024-12-19T07:17:23Z",
+      "snapshot_count": 1165,
+      "avg_debt": "20076933596858681814834",
+      "avg_collateral": "11544606036983053706761"
+    }
+  ]
+}
