@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curve Liquidations Dashboard</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+        h1 {
+            text-align: center;
+            color: #fff;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .subtitle {
+            text-align: center;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .stat-card {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            backdrop-filter: blur(5px);
+        }
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #FFD700;
+            display: block;
+        }
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.8;
+            margin-top: 5px;
+        }
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+        .chart-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            backdrop-filter: blur(5px);
+        }
+        .chart-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.5);
+        }
+        .chart-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .chart-description {
+            font-size: 0.95em;
+            opacity: 0.8;
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+        .btn {
+            display: inline-block;
+            background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 0.9em;
+        }
+        .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            background: linear-gradient(45deg, #4ECDC4, #FF6B6B);
+        }
+        .update-info {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            border-left: 4px solid #FFD700;
+        }
+        .tech-info {
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            font-size: 0.9em;
+        }
+        .tech-info h3 {
+            color: #FFD700;
+            margin-bottom: 15px;
+        }
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+        .feature-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        .feature-list li:before {
+            content: "✓ ";
+            color: #4ECDC4;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌊 Curve Liquidations Dashboard</h1>
+        <p class="subtitle">Comprehensive Analysis of Hard & Soft Liquidations on Curve Finance</p>
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <span class="stat-number">2,824</span>
+                <div class="stat-label">Soft Liquidation Positions</div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">1,282</span>
+                <div class="stat-label">Hard Liquidations</div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">$583M</span>
+                <div class="stat-label">Total Soft Liquidation TVL</div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number">$65M</span>
+                <div class="stat-label">Hard Liquidation Volume</div>
+            </div>
+        </div>
+
+        <div class="charts-grid">
+            <div class="chart-card">
+                <div class="chart-title">📊 Liquidations Comparison</div>
+                <div class="chart-description">
+                    Interactive comparison between hard and soft liquidations across all networks.
+                    Shows volume, frequency, and temporal patterns.
+                </div>
+                <a href="liquidations_comparison_chart.html" class="btn">View Chart</a>
+            </div>
+            
+            <div class="chart-card">
+                <div class="chart-title">📈 Interactive Analysis</div>
+                <div class="chart-description">
+                    Detailed interactive dashboard with network breakdown, token analysis,
+                    and user statistics for comprehensive market insights.
+                </div>
+                <a href="liquidations_interactive_comparison.html" class="btn">View Dashboard</a>
+            </div>
+            
+            <div class="chart-card">
+                <div class="chart-title">🔍 Comprehensive Report</div>
+                <div class="chart-description">
+                    In-depth analysis with advanced filtering, platform comparison,
+                    and market trend analysis across all supported networks.
+                </div>
+                <a href="liquidations_comprehensive_analysis.html" class="btn">View Report</a>
+            </div>
+        </div>
+
+        <div class="update-info">
+            <h3>📅 Latest Update: September 2025</h3>
+            <p><strong>Analysis Period:</strong> July 1, 2024 - September 4, 2025 (14 months)</p>
+            <p><strong>Networks Covered:</strong> Ethereum, Arbitrum, Fraxtal, Optimism</p>
+            <p><strong>Data Quality:</strong> Real blockchain data with proper precision normalization</p>
+        </div>
+
+        <div class="tech-info">
+            <h3>🛠️ Technical Features</h3>
+            <ul class="feature-list">
+                <li><strong>Position Segmentation:</strong> Detects position reopenings (gaps > 5 hours)</li>
+                <li><strong>Precision Handling:</strong> Uses database relations for accurate token precision</li>
+                <li><strong>LLAMMA Support:</strong> Accounts for gradual liquidation (collateral + collateral_up)</li>
+                <li><strong>Multi-Platform:</strong> Covers both LlamaLend and crvUSD protocols</li>
+                <li><strong>Real-Time Data:</strong> Direct integration with Curve's Metabase</li>
+                <li><strong>TVL Calculation:</strong> Proper normalization of price oracle and debt values</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
